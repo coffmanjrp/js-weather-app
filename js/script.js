@@ -35,7 +35,7 @@ navigator.geolocation.getCurrentPosition(async (position) => {
   locationName.innerText = `${name}, ${country}`;
   locationIcon.innerHTML = `<img src="icons/${icon}.png" alt="${description}" />`;
 
-  function changeTemperatureUnit() {
+  function toggleTemperatureUnit() {
     if (tempSpan.innerText === '˚C') {
       tempSpan.innerText = '˚F';
       tempDegreeValue.innerText = Math.floor(((temp - kelvin) * 9) / 5 + 32);
@@ -45,5 +45,5 @@ navigator.geolocation.getCurrentPosition(async (position) => {
     }
   }
 
-  tempDegree.addEventListener('click', changeTemperatureUnit);
+  tempDegree.addEventListener('click', toggleTemperatureUnit);
 });
