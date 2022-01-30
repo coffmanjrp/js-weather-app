@@ -1,8 +1,8 @@
 # Weather App
 
-API data by OpenWeather API
+API data by [OpenWeather API](https://openweathermap.org/)
 
-https://openweathermap.org/
+![Weather App](https://res.cloudinary.com/coffmanjrp-dev/image/upload/v1643506375/coffmanjrp.io/weather_app_09332145f4.png)
 
 Create js/key.js file and set your API_KEY variable in it.
 
